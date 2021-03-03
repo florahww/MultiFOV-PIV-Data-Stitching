@@ -78,6 +78,3 @@ for m in range (4):
 print(D_move)
 ed = timer()
 print('running time %.8f' % (ed - st))
-
-ed = timer()
-print('Running time is %.8f s' % (ed - st))
