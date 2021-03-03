@@ -1,5 +1,5 @@
 # MultiFOV-PIV-Data-Stitching
-Multiple FOV PIV Data Stitching
+PIV Data Stitching of 9 FOVs.
 
 The folder includes 8 Python scripts.
 
