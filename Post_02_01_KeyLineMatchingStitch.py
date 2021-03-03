@@ -1,15 +1,9 @@
-# 02_1_KeyLineMatchingStitch
+# Post_02_01_KeyLineMatchingStitch
 
 import pandas as pd
 import numpy as np
 from timeit import default_timer as timer
 from Post_01_01_LineStitch import z_axis_stitch_2d
-
-
-plt.rcParams.update({
-    "text.usetex": True,
-    "font.family": "sans-serif"})
-
 
 pathFOV1 = 'C:\\Project\\Verticalmeasurement\\DT101'
 pathFOV2 = 'C:\\Project\\Verticalmeasurement\\DT102'
