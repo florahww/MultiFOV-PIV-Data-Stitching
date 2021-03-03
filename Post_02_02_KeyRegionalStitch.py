@@ -5,11 +5,6 @@ import numpy as np
 from timeit import default_timer as timer
 from Post_01_02_RegionalStitch import z_axis_stitch_2d
 
-
-plt.rcParams.update({
-    "text.usetex": True,
-    "font.family": "sans-serif"})
-
 pathFOV1 = 'C:\\Project\\Verticalmeasurement\\DT101'
 pathFOV2 = 'C:\\Project\\Verticalmeasurement\\DT102'
 pathFOV3 = 'C:\\Project\\Verticalmeasurement\\DT103'
