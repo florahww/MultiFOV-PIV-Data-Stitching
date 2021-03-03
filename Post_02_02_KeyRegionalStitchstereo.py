@@ -1,15 +1,9 @@
-# 01_PreStitch
+# Post_02_02_KeyRegionalStitchstereo
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 from timeit import default_timer as timer
 from Post_01_02_RegionalStitch import y_axis_stitch_3d
-
-
-plt.rcParams.update({
-    "text.usetex": True,
-    "font.family": "sans-serif"})
 
 pathFOV10 = 'C:\\Project\\Verticalmeasurement\\DT42'
 pathFOV11 = 'C:\\Project\\Verticalmeasurement\\DT41'
