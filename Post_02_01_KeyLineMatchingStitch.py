@@ -2,7 +2,6 @@
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 from timeit import default_timer as timer
 from Post_01_01_LineStitch import z_axis_stitch_2d
 
