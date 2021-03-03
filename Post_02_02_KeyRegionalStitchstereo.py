@@ -13,7 +13,6 @@ pathFOV13 = 'C:\\Project\\Verticalmeasurement\\DT51'
 pathup = [pathFOV10,pathFOV12]
 pathbo = [pathFOV11,pathFOV13]
 
-st = timer()
 D_move=[]
 n_mse=[]
 n_edge = 5
@@ -59,7 +58,8 @@ for n in range (2):
     up.append(Data_FOV_up)
     Data_FOV_bo=Preprocess(pathbo[n])
     bo.append(Data_FOV_bo)
-
+    
+st = timer()
 for m in range (2):
     Data_FOV1 = up[m]
     Data_FOV2 = bo[m]
