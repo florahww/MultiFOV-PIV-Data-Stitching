@@ -10,7 +10,7 @@ plt.rcParams.update({
     "text.usetex": True,
     "font.family": "sans-serif"})
 
-savepath ='C:\Project\Verticalmeasurement\stitchdata\\figure'
+
 pathFOV1 = 'C:\\Project\\Verticalmeasurement\\DT101'
 pathFOV2 = 'C:\\Project\\Verticalmeasurement\\DT102'
 pathFOV3 = 'C:\\Project\\Verticalmeasurement\\DT103'
